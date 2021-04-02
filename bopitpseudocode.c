@@ -1,4 +1,6 @@
 //Nathan Swanson
+//Tyler Sheetz
+
 
 main()
 {
