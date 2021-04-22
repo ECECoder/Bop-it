@@ -86,7 +86,7 @@ void loop() {
 
           
           lightVal = analogRead(input1);
-          if(lightVal<lightCal-50){
+          if(lightVal<lightCal-125){
             read1=1;
           } else {
             read1=0;
@@ -141,7 +141,7 @@ void loop() {
 
           
           lightVal = analogRead(input1);
-          if(lightVal<lightCal-100){
+          if(lightVal<lightCal-125){
             read1=1;
           } else {
             read1=0;
@@ -195,7 +195,7 @@ void loop() {
 
           
           lightVal = analogRead(input1);
-          if(lightVal<lightCal-50){
+          if(lightVal<lightCal-125){
             read1=1;
           } else {
             read1=0;
