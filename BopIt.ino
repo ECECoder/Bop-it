@@ -111,7 +111,7 @@ void loop() {
             }
             kink = 0;
             digitalWrite(green, HIGH);
-            delay(250);
+            delay(500);
             digitalWrite(green, LOW);
           } else if((read0==0 && currenttime - prevMillis > responsetime) || read1!=0 || read2!=0){
             digitalWrite(red, HIGH);
@@ -165,7 +165,7 @@ void loop() {
             }
             kink = 0;
             digitalWrite(green, HIGH);
-            delay(250);
+            delay(500);
             digitalWrite(green, LOW);
           } else if ((read1==0 && currenttime - prevMillis > responsetime) || read0!=0 || read2!=0){
             digitalWrite(red, HIGH);
@@ -221,7 +221,7 @@ void loop() {
             }
             kink = 0;
             digitalWrite(green, HIGH);
-            delay(250);
+            delay(500);
             digitalWrite(green, LOW);
           } else if ((read2==0 && currenttime - prevMillis > responsetime) || read0!=0 || read1!=0){
             digitalWrite(red, HIGH);
